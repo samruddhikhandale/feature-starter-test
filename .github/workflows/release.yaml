@@ -9,7 +9,6 @@ jobs:
     environment: documentation
     permissions:
       contents: write
-      pull-requests: write
       packages: write
     steps:
       - uses: actions/checkout@v3
